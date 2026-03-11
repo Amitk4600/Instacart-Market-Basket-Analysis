@@ -1,0 +1,32 @@
+# Ignore dataset files
+
+
+data/
+*.csv
+*.xlsx
+*.json
+
+# Ignore large files
+
+*.zip
+*.rar
+*.7z
+
+# Ignore Power BI cache files
+
+*.pbix.lock
+*.pbit
+
+# System files
+
+.DS_Store
+Thumbs.db
+
+# Python cache (if used later)
+
+**pycache**/
+*.pyc
+
+# Environment files
+
+.env
